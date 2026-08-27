@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 AI Chat Export for Gemini – Word, PDF, Google Docs & Markdown Exporter
+# AI Chat Export for Gemini – Word, PDF, Google Docs & Markdown Exporter
 
 **The ultimate Google Chrome extension to export, save, and backup your Google Gemini AI conversations into Microsoft Word (.docx), formatted PDF, Google Docs, Markdown (.md), and Plain Text (.txt) with one click!**
 
