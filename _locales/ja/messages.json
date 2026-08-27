@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Gemini用AIチャットエクスポート: Word、PDF、Googleドキュメント"
+  },
+  "extShortName": {
+    "message": "Geminiエクスポート"
+  },
+  "extDescription": {
+    "message": "ワンクリックでGeminiのチャットをMicrosoft Word（.docx）、PDF、Googleドキュメント、Markdown（.md）、Text（.txt）にエクスポートします。"
+  }
+}

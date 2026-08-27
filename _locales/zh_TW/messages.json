@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Gemini AI聊天匯出：Word，PDF和Google文件"
+  },
+  "extShortName": {
+    "message": "Gemini匯出"
+  },
+  "extDescription": {
+    "message": "一鍵將Gemini聊天匯出為Microsoft Word（.docx）、PDF、Google文件、Markdown（.md）和文字（.txt）。"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Gemini용 AI 채팅 내보내기: Word, PDF 및 Google Docs"
+  },
+  "extShortName": {
+    "message": "Gemini 내보내기"
+  },
+  "extDescription": {
+    "message": "한 번의 클릭으로 Gemini 채팅을 Microsoft Word(.docx), PDF, Google Docs, Markdown(.md) 및 텍스트(.txt)로 내보냅니다."
+  }
+}

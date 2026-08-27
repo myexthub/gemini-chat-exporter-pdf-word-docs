@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Chat Export for Gemini</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="popup-container">
+    <div id="appContent">
+      <!-- Header -->
+      <div class="header">
+        <div class="brand">
+          <img src="../icons/icon48.png" alt="Logo" class="logo">
+          <div>
+            <h1 class="title">Gemini Export</h1>
+            <div class="subtitle">Word, PDF & Google Docs</div>
+          </div>
+        </div>
+        <span class="status-pill">Active</span>
+      </div>
+
+      <!-- Main Content -->
+      <div class="content">
+
+        <!-- Google Docs Connection Status -->
+        <div class="card auth-card">
+          <div class="auth-header">
+            <div class="auth-title">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="#4285f4">
+                <path
+                  d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm-1 7V3.5L18.5 9H13z" />
+              </svg>
+              Google Drive Connection
+            </div>
+            <span id="authBadge" class="badge badge-warning">Checking...</span>
+          </div>
+          <p class="auth-desc" id="authDesc">
+            Authorize Google Account for 1-click Google Docs creation.
+          </p>
+          <button id="authBtn" class="btn btn-secondary"
+            style="margin-top: 10px; background: #28292a; color: #8ab4f8; border: 1px solid #3c4043;">
+            Authorize Google Account
+          </button>
+          <div id="extIdInfo" style="font-size: 10px; color: #70757a; margin-top: 8px; word-break: break-all;"></div>
+        </div>
+      </div>
+
+      <!-- Premium Footer (Pro Badge + Manage Sub + Sign Out) -->
+      <div id="premiumFooter"
+        style="display: none; margin-top: 15px; text-align: center; border-top: 1px dashed #3c4043; padding-top: 10px;">
+        <div class="pro-badge">
+          Pro Version Active 🏆
+        </div>
+        <div id="proUserEmail" style="font-size: 11px; color: #9aa0a6; margin-bottom: 6px;"></div>
+        <a href="https://myexthub.com/dashboard" target="_blank" class="manage-sub-btn">
+          ⚙️ My account
+        </a>
+        <div style="margin-top: 8px;">
+          <button id="btnSignOut" class="sign-out-btn">Sign Out</button>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <span>v1.2.0</span>
+        <span class="dot">•</span>
+        <span>Gemini Companion</span>
+      </div>
+    </div>
+
+    <!-- Paywall (Trial Ended - Matches trial.png) -->
+    <div id="paywall" style="display: none;">
+      <div class="neo-card">
+        <h3 class="neo-title">Trial <span style="color: #e056fd;">Ended!</span></h3>
+        <p class="neo-text">Your free trial is over. Upgrade now to unlock unlimited power.</p>
+        <a href="https://myexthub.com/extensions/kajakpocmgpgbgflfkfmiagjmnbjlmjd" target="_blank"
+          class="neo-btn btn-primary">🔥 Unlock Pro</a>
+        <button id="btnLogin" class="neo-btn btn-secondary">
+          Login / Refresh
+        </button>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer" style="border-top: none; margin-top: 10px;">
+        <p id="user-info" style="display: none;"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

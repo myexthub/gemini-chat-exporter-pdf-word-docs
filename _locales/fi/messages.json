@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "AI-chatin vienti Geminille: Word, PDF ja Google Docs"
+  },
+  "extShortName": {
+    "message": "Gemini Vienti"
+  },
+  "extDescription": {
+    "message": "Vie Gemini-keskustelut Microsoft Wordiin (.docx), PDF:ään, Google Docsiin, Markdowniin (.md) ja tekstiksi (.txt) yhdellä napsautuksella."
+  }
+}

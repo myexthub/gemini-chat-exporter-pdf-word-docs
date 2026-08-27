@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "AI Chat Export för Gemini: Word, PDF & Google Docs"
+  },
+  "extShortName": {
+    "message": "Gemini Exporter"
+  },
+  "extDescription": {
+    "message": "Exportera Gemini-chattar till Microsoft Word (.docx), PDF, Google Docs, Markdown (.md) och Text (.txt) med ett klick."
+  }
+}
